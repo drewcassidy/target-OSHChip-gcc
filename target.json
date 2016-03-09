@@ -1,0 +1,69 @@
+{
+  "name": "OSHChip-gcc",
+  "version": "1.0.0",
+  "inherits": {
+    "nordic-nrf51822-gcc": "^1.0.0"
+  },
+  "description": "Unofficial OSHChip build target for the nrf51822 32KB chip.",
+  "homepage": "https://github.com/drewcassidy/target-OSHChip-gcc",
+  "repository": {
+    "url": "git@github.com:drewcassidy/target-OSHChip-gcc.git",
+    "type": "git"
+  },
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "keywords": [
+    "OSHChip",
+    "gcc"
+  ],
+  "similarTo": [
+    "mkit"
+  ],
+  "config": {
+    "nrf51822": {
+      "ram_size": "32K"
+    },
+    "image": {
+      "heap": {
+        "warning_threshold": 1024
+      }
+    },
+    "hardware": {
+      "clocks": {
+        "nrf": {
+          "lfclk_src": 0
+        }
+      },
+
+      "pins": {
+        "LED1": "p8",
+        "LED2": "p5",
+        "LED3": "p3",
+        "RX_PIN_NUMBER": "p18",
+        "TX_PIN_NUMBER": "p20",
+        "CTS_PIN_NUMBER": "p30",
+        "RTS_PIN_NUMBER": "p29",
+        "USBTX": "TX_PIN_NUMBER",
+        "USBRX": "RX_PIN_NUMBER",
+        "OSHChip_Pin_1":  "p20",
+        "OSHChip_Pin_2":  "p18",
+        "OSHChip_Pin_3":  "p16",
+        "OSHChip_Pin_4":  "p15",
+        "OSHChip_Pin_5":  "p12",
+        "OSHChip_Pin_6":  "p11",
+        "OSHChip_Pin_7":  "p9",
+        "OSHChip_Pin_9":  "p1",
+        "OSHChip_Pin_10": "p2",
+        "OSHChip_Pin_11": "p0",
+        "OSHChip_Pin_12": "p27",
+        "OSHChip_Pin_13": "p26",
+        "OSHChip_Pin_14": "p24",
+        "OSHChip_Pin_15": "p21"
+      }
+    }
+  }
+}
