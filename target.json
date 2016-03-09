@@ -43,6 +43,7 @@
         "LED1": "p8",
         "LED2": "p5",
         "LED3": "p3",
+        "LED4": "p4",
         "RX_PIN_NUMBER": "p18",
         "TX_PIN_NUMBER": "p20",
         "CTS_PIN_NUMBER": "p30",
