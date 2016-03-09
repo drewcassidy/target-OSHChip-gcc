@@ -4,3 +4,10 @@ CMakeScripts
 Makefile
 cmake_install.cmake
 install_manifest.txt
+
+build
+yotta_targets
+yotta_modules
+upload.tar.gz
+.DS_Store
+.yotta.json
