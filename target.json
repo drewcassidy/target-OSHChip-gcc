@@ -1,5 +1,5 @@
 {
-  "name": "OSHChip-gcc",
+  "name": "oshchip-gcc",
   "version": "1.0.0",
   "inherits": {
     "nordic-nrf51822-gcc": "^1.0.0"
