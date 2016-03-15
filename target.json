@@ -76,6 +76,7 @@
         "D6": "OSHChip_pin_7",
         "D7": "OSHChip_pin_14",   
         "D8": "OSHChip_Pin_15",
+        "D9": "OSHChip_pin_11",
         "A0": "OSHChip_Pin_13",
         "A1": "OSHChip_Pin_12",
         "A2": "OSHChip_Pin_9",
