@@ -1,11 +1,11 @@
 {
   "name": "oshchip-gcc",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "inherits": {
     "nordic-nrf51822-gcc": "^1.0.0"
   },
-  "description": "Unofficial OSHChip build target for the nrf51822 32KB chip.",
-  "homepage": "https://github.com/drewcassidy/target-OSHChip-gcc",
+  "description": "Official OSHChip gcc build target for the nrf51822 32KB chip.",
+  "homepage": "http://oshchip.org",
   "repository": {
     "url": "git@github.com:drewcassidy/target-OSHChip-gcc.git",
     "type": "git"
@@ -18,7 +18,10 @@
   ],
   "keywords": [
     "OSHChip",
-    "gcc"
+    "gcc",
+    "nordic",
+    "nRF51822",
+    "OSHW"
   ],
   "similarTo": [
     "mkit"
@@ -63,7 +66,21 @@
         "OSHChip_Pin_12": "p27",
         "OSHChip_Pin_13": "p26",
         "OSHChip_Pin_14": "p24",
-        "OSHChip_Pin_15": "p21"
+        "OSHChip_Pin_15": "p21",
+        "D0": "OSHChip_pin_1",
+        "D1": "OSHChip_pin_2",
+        "D2": "OSHChip_pin_3",
+        "D3": "OSHChip_pin_4",                        
+        "D4": "OSHChip_pin_5",
+        "D5": "OSHChip_pin_6",
+        "D6": "OSHChip_pin_7",
+        "D7": "OSHChip_pin_14",   
+        "D8": "OSHChip_Pin_15",
+        "A0": "OSHChip_Pin_13",
+        "A1": "OSHChip_Pin_12",
+        "A2": "OSHChip_Pin_9",
+        "A3": "OSHChip_Pin_10",
+        "AREF": "OSHChip_Pin_11" 
       }
     }
   }
