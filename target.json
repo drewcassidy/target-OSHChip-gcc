@@ -1,6 +1,6 @@
 {
   "name": "oshchip-gcc",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "inherits": {
     "nordic-nrf51822-gcc": "^1.0.0"
   },
@@ -67,21 +67,21 @@
         "OSHChip_Pin_13": "p26",
         "OSHChip_Pin_14": "p24",
         "OSHChip_Pin_15": "p21",
-        "D0": "OSHChip_pin_1",
-        "D1": "OSHChip_pin_2",
-        "D2": "OSHChip_pin_3",
-        "D3": "OSHChip_pin_4",                        
-        "D4": "OSHChip_pin_5",
-        "D5": "OSHChip_pin_6",
-        "D6": "OSHChip_pin_7",
-        "D7": "OSHChip_pin_14",   
-        "D8": "OSHChip_Pin_15",
-        "D9": "OSHChip_pin_11",
-        "A0": "OSHChip_Pin_13",
-        "A1": "OSHChip_Pin_12",
-        "A2": "OSHChip_Pin_9",
-        "A3": "OSHChip_Pin_10",
-        "AREF": "OSHChip_Pin_11" 
+        "D0": "p20",
+        "D1": "p18",
+        "D2": "p16",
+        "D3": "p15",                        
+        "D4": "p12",
+        "D5": "p11",
+        "D6": "p9",
+        "D7": "p24",   
+        "D8": "p21",
+        "D9": "p0",
+        "A0": "p26",
+        "A1": "p27",
+        "A2": "p1",
+        "A3": "p2",
+        "AREF": "p0" 
       }
     }
   }
