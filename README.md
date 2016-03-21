@@ -13,7 +13,7 @@ Create a new directory and navigate to it in your command line using `cd`, then 
 To target the OSHChip run `yotta target oshchip-gcc`. Yotta will automatically download the latest version of this repository and set it as your target. Then, install the mbed environment with `yotta install mbed-drivers`
 
 #####Writing your Code
-Write your code in the `Source` directory of your project. Instead of the usual `main` function familiar to C and C++ programmers, mbed runs a function called `app_start`, which takes one int and an array of chars as arguments. You can find the full mbed docs [here](https://docs.mbed.com/), or the source [here](https://github.com/ARMmbed/mbed-os).
+Write your code in the `Source` directory of your project as .cpp files. Instead of the usual `main` function familiar to C and C++ programmers, mbed runs a function called `app_start`, which takes one int and an array of chars as arguments. You can find the full mbed docs [here](https://docs.mbed.com/), or the source [here](https://github.com/ARMmbed/mbed-os).
 
 For the OSHChip, you can use different pins either by their pin number `OSHChip_Pin_1` or by an arduino-style IO name such as `D0` or `A0`. The LEDs can be used with `LED1`, `LED2`, and `LED3`.
 
