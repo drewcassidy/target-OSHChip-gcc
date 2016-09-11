@@ -1,6 +1,6 @@
 {
   "name": "oshwatch-gcc",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "inherits": {
     "nordic-nrf51822-gcc": "^1.0.0"
   },
