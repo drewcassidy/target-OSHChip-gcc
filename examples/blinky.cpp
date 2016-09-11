@@ -1,7 +1,7 @@
 #include "mbed-drivers/mbed.h"
 
 static void blinky(void) {
-    static DigitalOut led(LED1);
+    static DigitalOut led(BACKLIGHT);
     led = !led;
     printf("LED = %d \r\n",led.read());
 }
