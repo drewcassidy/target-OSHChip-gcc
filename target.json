@@ -1,6 +1,6 @@
 {
   "name": "oshwatch-gcc",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "inherits": {
     "nordic-nrf51822-gcc": "^1.0.0"
   },
@@ -66,7 +66,13 @@
         "LED1":       "p8",
         "LED2":       "p9",
         "LED3":       "p10",
-        "LED4":       "p11"
+        "LED4":       "p11",
+        "RX_PIN_NUMBER":  "p8",
+        "TX_PIN_NUMBER":  "p9",
+        "CTS_PIN_NUMBER": "p10",
+        "RTS_PIN_NUMBER": "p11",
+        "USBTX": "TX_PIN_NUMBER",
+        "USBRX": "RX_PIN_NUMBER"
       }
     }
   }
