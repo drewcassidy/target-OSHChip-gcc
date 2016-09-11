@@ -5,7 +5,7 @@
     "nordic-nrf51822-gcc": "^1.0.0"
   },
   "description": "Official OSHWatch gcc build target for the nrf51822 16KB chip.",
-  "homepage": "https://github.com/drewcassidy/target-OSHWatch-gcc",
+  "homepage": "https://github.com/drewcassidy/OSHWatch",
   "repository": {
     "url": "git@github.com:drewcassidy/target-OSHWatch-gcc.git",
     "type": "git"
