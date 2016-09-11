@@ -1,13 +1,13 @@
 {
-  "name": "oshchip-gcc",
+  "name": "oshwatch-gcc",
   "version": "1.1.4",
   "inherits": {
     "nordic-nrf51822-gcc": "^1.0.0"
   },
-  "description": "Official OSHChip gcc build target for the nrf51822 32KB chip.",
+  "description": "Official OSHWatch gcc build target for the nrf51822 16KB chip.",
   "homepage": "http://oshchip.org",
   "repository": {
-    "url": "git@github.com:OSHChip/target-OSHChip-gcc.git",
+    "url": "git@github.com:drewcassidy/target-OSHWatch-gcc.git",
     "type": "git"
   },
   "licenses": [
@@ -17,18 +17,19 @@
     }
   ],
   "keywords": [
-    "OSHChip",
+    "OSHWatch",
     "gcc",
     "nordic",
     "nRF51822",
     "OSHW"
   ],
   "similarTo": [
-    "mkit"
+    "mkit",
+    "oshchip"
   ],
   "config": {
     "nrf51822": {
-      "ram_size": "32K"
+      "ram_size": "16K"
     },
     "image": {
       "heap": {
@@ -43,45 +44,29 @@
       },
 
       "pins": {
-        "LED1": "p8",
-        "LED2": "p5",
-        "LED3": "p3",
-        "LED4": "p4",
-        "RX_PIN_NUMBER": "p18",
-        "TX_PIN_NUMBER": "p20",
-        "CTS_PIN_NUMBER": "p30",
-        "RTS_PIN_NUMBER": "p29",
-        "USBTX": "TX_PIN_NUMBER",
-        "USBRX": "RX_PIN_NUMBER",
-        "OSHChip_Pin_1":  "p20",
-        "OSHChip_Pin_2":  "p18",
-        "OSHChip_Pin_3":  "p16",
-        "OSHChip_Pin_4":  "p15",
-        "OSHChip_Pin_5":  "p12",
-        "OSHChip_Pin_6":  "p11",
-        "OSHChip_Pin_7":  "p9",
-        "OSHChip_Pin_9":  "p1",
-        "OSHChip_Pin_10": "p2",
-        "OSHChip_Pin_11": "p0",
-        "OSHChip_Pin_12": "p27",
-        "OSHChip_Pin_13": "p26",
-        "OSHChip_Pin_14": "p24",
-        "OSHChip_Pin_15": "p21",
-        "D0": "p20",
-        "D1": "p18",
-        "D2": "p16",
-        "D3": "p15",                        
-        "D4": "p12",
-        "D5": "p11",
-        "D6": "p9",
-        "D7": "p24",   
-        "D8": "p21",
-        "D9": "p0",
-        "A0": "p26",
-        "A1": "p27",
-        "A2": "p1",
-        "A3": "p2",
-        "AREF": "p0" 
+        "CHG":        "p1",
+        "IND":        "p2",
+        "LCD_RST":    "p3",
+        "LCD_CE":     "p4",
+        "LCD_DC":     "p5",
+        "LCD_MOSI":   "p6",
+        "LCD_CLK":    "p7",
+        "BACKLIGHT":  "p12",
+        "ACC_INT1":   "p13",
+        "ACC_INT2":   "p14",
+        "SDA":        "p15",
+        "SDL":        "p16",
+        "BTN_BACK":   "p17",
+        "VIB":        "p21",
+        "BTN_SELECT": "p25",
+        "BTN_DOWN":   "p26",
+        "BTN_UP":     "p27",
+        "BTN_RIGHT":  "p28",
+        "BTN_LEFT":   "p29",
+        "LED1":       "p8",
+        "LED2":       "p9",
+        "LED3":       "p10",
+        "LED4":       "p11"
       }
     }
   }
